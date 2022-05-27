@@ -3,11 +3,6 @@
 siernlib is a open sourced Roblox UI library
 Support server: discord.gg/zen
 
-## Loadstring
-```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/siernlib/main/library.lua"))()
-```
-
 ## Features:
 - Buttons
 - Sliders
