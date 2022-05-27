@@ -5,7 +5,7 @@ Support server: discord.gg/zen
 
 ## Loadstring
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/bleklib/main/library.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/siernlib/main/library.lua"))()
 ```
 
 ## Features:
