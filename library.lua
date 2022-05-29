@@ -940,7 +940,7 @@
             return sectionHandler
         end
 
-        --// Drag - BY MERCURY LIB DEVELOPERS
+        --// Drag - BY MERCURY LIB DEVELOPERS (have permission to use this)
         topBar.MouseEnter:Connect(function()
             local Input = topBar.InputBegan:connect(function(Key)
                 if Key.UserInputType == Enum.UserInputType.MouseButton1 then
