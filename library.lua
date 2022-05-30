@@ -454,7 +454,7 @@
                     textBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                     textBox.BackgroundTransparency = 1
                     textBox.Position = UDim2.fromScale(-0.418, 0)
-                    textBox.Size = UDim2.fromOffset(50, 25)
+                    textBox.Size = UDim2.fromOffset(95, 25)
                     textBox.Parent = status
 
                     status.Parent = textbox
