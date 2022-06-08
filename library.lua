@@ -725,10 +725,8 @@
                         tog = not tog
                         callback(tog)
                         if tog then
-                            game:GetService('TweenService'):Create(status2, TweenInfo.new(0.2), {BackgroundColor3 = Color3.fromRGB(31, 152, 82)}):Play()
                             game:GetService('TweenService'):Create(uIStroke1, TweenInfo.new(0.2), {Color = Color3.fromRGB(52, 255, 137)}):Play()
                         else
-                            game:GetService('TweenService'):Create(status2, TweenInfo.new(0.2), {BackgroundColor3 = Color3.fromRGB(38, 38, 38)}):Play()
                             game:GetService('TweenService'):Create(uIStroke1, TweenInfo.new(0.2), {Color = Color3.fromRGB(48, 48, 48)}):Play()
                         end
                     end)
