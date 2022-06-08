@@ -15,8 +15,8 @@
     function updateCanvasSize(scroll, list, padding)
         local size = list.AbsoluteContentSize;
     
-        size = size + Vector2.new(0, padding.PaddingBottom.Offset + padding.PaddingTop.Offset);
-        scroll.CanvasSize = UDim2.new(0, size.X, 0, size.Y)
+        size = size + Vector2.new(1, padding.PaddingBottom.Offset + padding.PaddingTop.Offset);
+        scroll.CanvasSize = UDim2.new(1, size.X, 1, size.Y)
     end
 
     function Library:Create(table)
